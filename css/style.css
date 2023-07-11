@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    border:1px solid #000;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    align-content: space-evenly;
+}
+
+div{
+    width: 100px;
+    background: green;
+}
+
+aside{
+    border:1px solid #00f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+span{
+    width: 200px;
+}
+
+.preferido{
+    order:-1;
+}
